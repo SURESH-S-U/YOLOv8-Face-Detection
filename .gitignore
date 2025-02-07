@@ -1,4 +1,5 @@
 # Ignore virtual environment
+yolo-env/
 venv/
 .venv/
 
@@ -6,6 +7,11 @@ venv/
 __pycache__/
 *.log
 
-# Ignore model weights (if large)
-runs/
-yolo-env/
+# Ignore large model files (already tracked in LFS)
+*.pt
+*.onnx
+*.h5
+*.ckpt
+*.dll
+*.pyd
+*.lib
