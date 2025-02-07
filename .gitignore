@@ -1,0 +1,10 @@
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore cache and logs
+__pycache__/
+*.log
+
+# Ignore model weights (if large)
+runs/
